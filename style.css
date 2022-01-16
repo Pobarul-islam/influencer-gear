@@ -12,8 +12,48 @@
 body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+}
+
+/* Header Section  */
+
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px;
+    color:#000 ;
+}
+.navigation{
+display: flex;  
+justify-content: space-between;
+margin-left: 55%;
+
+
+ 
+}
+.navigation li{
+    list-style: none;
+    margin-right: 7%;
 
 }
+.navigation li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.navigation li a:hover{
+color: #E02C6D;
+   border-radius: 5px;
+   transition: .2s;
+
+ 
+
+}
+
 
 /* Start Camera Section  */
 .container{
@@ -173,6 +213,50 @@ footer{
         background-color: gray;
     }
 
+    
+/* Header Section  */
+
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5%;
+ 
+}
+.navigation{
+flex-direction: column;
+margin-left: 50%;
+
+
+ 
+}
+.navigation li{
+    list-style: none;
+
+
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+
+.navigation li a:hover{
+color: #E02C6D;
+   border-radius: 5px;
+   transition: .2s;
+
+ 
+
+}
+
+/* End Header Section  */
 .top-section{
     flex-direction: column-reverse;
     align-items: center;
@@ -305,6 +389,50 @@ footer{
 /* Tablet responsive  */
 
 @media only screen and (max-width:900px) {
+
+
+/* Header Section  */
+
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px;
+    color:#fff ;
+    
+}
+.navigation{
+display: flex;  
+justify-content: space-between;
+margin-left: 35%;
+
+
+ 
+}
+.navigation li{
+    list-style: none;
+    margin-right: 7%;
+
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.navigation li a:hover{
+color: #E02C6D;
+   border-radius: 5px;
+   transition: .2s;
+
+ 
+
+}
+/* End Header section  */
+
     /* Start Camera Section  */
     *{
         margin: 0;
